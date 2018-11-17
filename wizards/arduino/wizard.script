@@ -279,7 +279,7 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
 
 		       	target.AddIncludeDir(_T("$(ARDUINO_DIR)/hardware/arduino/cores/arduino"));
 						target.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries"));
-            if (SketchesDir) {
+            if (SketchDir) {
            		target.AddIncludeDir(_T("$(SKETCH_DIR)/hardware/attiny/variants/" + variant));
             }
          		target.AddIncludeDir(_T("$(ARDUINO_DIR)/hardware/arduino/variants/" + variant));
