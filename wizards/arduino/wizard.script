@@ -59,10 +59,10 @@ Libs <- _T("");
 
 
 // directories
-ArduinoDir <- _T("$(HOME)/.codeblocks/arduino");
-SketchDir <- _T("$(HOME)/.codeblocks/sketches");
-HelpersDir <- _T("$(HOME)/.codeblocks/helpers");
-ArdusimDir <- _T("$(HOME)/.codeblocks/ardusim");
+ArduinoDir <- _T("$(HOME)/.config/codeblocks/arduino");
+SketchDir <- _T("$(HOME)/.config/codeblocks/sketches");
+HelpersDir <- _T("$(HOME)/.config/codeblocks/helpers");
+ArdusimDir <- _T("$(HOME)/.config/codeblocks/ardusim");
 
 
 
